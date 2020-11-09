@@ -12,3 +12,5 @@ puts @store2.name
 @store1.update(name: 'Bingo')
 @store1.save
 puts @store1.name
+
+puts Store.count
