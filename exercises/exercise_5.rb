@@ -8,4 +8,8 @@ puts "Exercise 5"
 puts "----------"
 
 total = Store.sum("annual_revenue")
+average = Store.average("annual_revenue")
+one_million = Store.where("annual_revenue > ?", 1000000).count
 puts total
+puts average
+puts one_million
